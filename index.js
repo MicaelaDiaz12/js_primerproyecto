@@ -6,7 +6,7 @@
 
   while (ventaProducto != ""){
     ventaProducto = Number(prompt("elija el producto que quiera "+"\n"+
-    "\n 1-collares 2500"+"\n 2-pulseras 1500"+"\n 3-anillo 1500"+"\n"+
+    "\n 1-collares 6.500"+"\n 2-pulseras 4000"+"\n 3-anillo 1500"+"\n"+
     "\n o toque el boton cancelar"));  
 
     switch (ventaProducto) {
@@ -52,7 +52,6 @@ let  medioDePago = Number(prompt("elija un medio de pago"+"\n"+ "\n 1-efectivo"+
 //  pago en efectivo
   if (medioDePago == 1){ 
     let efectivo = Number(prompt("en total seria "+ precio + " con cuanto querés pagar?"));
-    var cuenta = efectivo - precio;
 
     alert ("gracias por su compra"); 
 
